@@ -1,0 +1,1009 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* styling header */
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left_side{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo img{
+    height: 35px;
+    margin: 8px 0px 6px 10px;
+}
+.logo img:hover{
+    cursor: pointer;
+}
+
+#head1{
+    margin: 8px 0px 0px 2px
+}
+#head2{
+    margin: 0px 0px 6px 2px
+}
+#head1, #head2:hover{
+    cursor: pointer;
+}
+
+.right_side{
+    display: flex;
+    margin: 0px 0px 0px 860px;
+    align-items: center;
+}
+
+.login a{
+    margin:  0px 20px 0px 0px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.search img{
+    margin:  0px 20px 0px 0px; 
+    height: 38px;  
+}
+
+.news a{
+    margin:  0px 20px 0px 0px;
+    text-decoration-color: rgb(226, 201, 7);
+    color: black;
+}
+.news a:hover{
+    background-color: rgb(226, 201, 7);
+}
+
+
+.subs a{
+    margin:  0px 20px 0px 0px;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.subs a:hover{
+    color: black;
+    background-color: rgb(226, 201, 7);
+}
+
+.menu a{
+    margin:  0px 20px 0px 0px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+.login, .search, .news, .subs, .menu{
+    cursor: pointer;
+}
+
+
+/* styling section1 */
+#section1{
+    background-color: black;
+}
+
+.head6{
+    padding: 80px 0px 20px 0px;
+    text-align: center;
+    color: white;
+    font-size: 3.7rem;
+}
+
+#span1{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+#span1 a{
+    text-decoration-color: yellow;
+    color: white;
+}
+
+#span1 a:hover{
+    background-color: rgb(226, 201, 7);
+    color: rgb(25, 24, 24);
+}
+
+
+/* section1 styling */
+.inner-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0px 0px 200px;
+}
+
+.section-left{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+}
+
+.head7{
+    font-size: 2rem;
+}
+
+.new1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.aaa img{
+    height: 110px;
+}
+
+.bbb{
+    width: 200px;
+    margin: 0px 0px 0px 15px;
+}
+
+.head8 a{
+    color: white;
+    text-decoration: none;
+}
+.head8 a:hover{
+    text-decoration: underline;
+}
+
+.para3 a{
+color: white;
+text-decoration: none;
+}
+.para3 a:hover{
+    text-decoration: underline;
+}
+
+.link1{
+    margin: 40px 0px 40px 0px;
+}
+.link1 a{
+    color: white;
+    text-decoration-color: yellow;
+}
+.link1 a:hover{
+    color: black;
+    background-color: rgb(226, 201, 7);
+}
+
+
+/* styling right side */
+.section-right{
+padding: 20px 0px 0px 40px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+
+#right-img{
+    margin: 0px 0px 50px 0px;
+}
+
+
+#right-img img{
+    position: relative;
+    height: 500px;
+    transition: all 0.1s ease-out;
+}
+
+
+#right-img img:hover{
+    transform: scale(1.1);
+}
+
+.bbb4{
+    position: absolute;
+    top: 500px;
+    margin: 60px 30px 0px 30px;
+    color: white;
+    width: 650px;
+}
+
+.head10{
+    margin: 20px 0px 10px 12px;
+}
+.head10 a{
+
+    color: white;
+    text-decoration: none;
+}
+.head10 a:hover{
+    text-decoration: underline;
+}
+
+.para5{
+    margin: 20px 0px 10px 12px;
+    font-size: 2rem;
+}
+.para5 a{
+color: white;
+text-decoration: none;
+}
+.para5 a:hover{
+    text-decoration: underline;
+}
+
+.link3{
+    margin: 30px 0px 40px 12px;
+    color: white;
+}
+.link3 a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#imge1{
+    transition: all 0.1s ease-out;
+}
+#imge1:hover{
+    transform: scale(1.1);
+}
+#imge2{
+    transition: all 0.1s ease-out;
+}
+#imge2:hover{
+    transform: scale(1.1);
+
+}
+
+#imge1 img{
+    height: 200px;
+    width: 300px;
+}
+
+
+
+#imge2 img{
+    margin: 0px 0px 0px 100px;
+    height: 200px;
+    width: 300px;
+}
+
+
+.ccc{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.bbb2{
+    width: 300px;
+    height: 200px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(15, 14, 14);
+    background-color: white;
+}
+
+.bbb3{
+    width: 300px;
+    height: 200px;
+    margin: 0px 0px 10px 100px;
+    color: rgb(15, 14, 14);
+    background-color: white;
+}
+
+.head9{
+    padding: 15px 10px 20px 15px;
+}
+
+.head9 a{
+    color: rgb(15, 14, 14);
+    background-color: white;
+    text-decoration: none;
+}
+.head9 a:hover{
+    text-decoration: underline;
+}
+
+.para4{
+    padding: 0px 10px 20px 15px;
+    font-size: 1.3rem;
+}
+.para4 a{
+color: rgb(17, 17, 17);
+background-color: white;
+text-decoration: none;
+}
+.para4 a:hover{
+    text-decoration: underline;
+}
+
+.link2{
+    margin: 0px 0px 40px 15px;
+}
+.link2 a{
+    color: rgb(24, 23, 23);
+    text-decoration-color: yellow;
+}
+
+
+#video-section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.vid video{
+  width: 100vw;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.text1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    top: 1400px;
+    margin: 0px 0px 0px 430px;
+    color: white;
+    width: 650px;
+}
+
+.head11{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0px 0px 30px 0px;
+}
+
+.para6{
+    text-align:center;
+    font-size: 1.3rem;
+}
+
+.link4{
+    margin: 25px auto;
+    font-size: 1.2rem;
+}
+.link4 a{
+    color: white;
+    text-decoration-color: yellow;
+}
+.link4 a h4:hover{
+    color: black;
+    background-color: rgb(226, 201, 7);
+}
+
+
+/* styling discover */
+#discover{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+}
+.top-dis{
+    margin: 40px 300px 30px 300px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.head12 a{
+    color: white;
+    text-decoration: none;
+}
+.link5{
+    margin: 0px 0px 0px 450px;
+}
+.link5 a{
+    color: white;
+    text-decoration-color: yellow;
+}
+.link5 a:hover{
+    color: rgb(26, 25, 25);
+    background-color: yellow;
+}
+.image2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image1 img{
+    margin: 0px 10px 30px 10px;
+    height: 280px;
+    width: 206px;
+}
+.image2{
+    margin: 0px 300px 100px 300px;
+}
+
+
+
+
+
+
+
+
+/* styling travel */
+#travel{
+    background-image: url('img18.png');
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100%;
+}
+
+.head13{
+    color: white;
+    font-size: 3.3rem;
+    text-align: center;
+    padding: 80px 0px 40px 0px;
+}
+
+
+/* section1 styling */
+.inner-container2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0px 0px 200px;
+}
+
+.section-left2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+}
+
+.head17{
+    font-size: 2rem;
+}
+
+.new2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.aaa1 img{
+    height: 110px;
+    width: 110px;
+}
+
+.bbb8{
+    width: 200px;
+    margin: 0px 0px 0px 15px;
+}
+
+.head18 a{
+    color: white;
+    text-decoration: none;
+}
+.head18 a:hover{
+    text-decoration: underline;
+}
+
+.para9 a{
+color: white;
+text-decoration: none;
+}
+.para9 a:hover{
+    text-decoration: underline;
+}
+
+.link8{
+    margin: 40px 0px 40px 15px;
+}
+.link8 a{
+    color: white;
+    text-decoration-color: yellow;
+}
+.link8 a:hover{
+    color: black;
+    background-color: rgb(226, 201, 7);
+}
+
+
+/* styling right side */
+.section-right2{
+padding: 20px 30px 0px 40px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
+
+#right-img2{
+    margin: 0px 0px 50px 0px;
+}
+
+
+#right-img2 img{
+    position: relative;
+    height: 400px;
+    transition: all 0.1s ease-out;
+}
+
+
+#right-img2 img:hover{
+    transform: scale(1.1);
+}
+
+.bbb5{
+    position: absolute;
+    top: 2800px;
+    margin: 60px 30px 0px 30px;
+    color: white;
+    width: 650px;
+}
+
+.head14{
+    margin: 20px 0px 10px 12px;
+}
+.head14 a{
+
+    color: white;
+    text-decoration: none;
+}
+.head14 a:hover{
+    text-decoration: underline;
+}
+
+.para7{
+    margin: 20px 0px 10px 12px;
+    font-size: 2.3rem;
+}
+.para7 a{
+color: white;
+text-decoration: none;
+}
+.para7 a:hover{
+    text-decoration: underline;
+}
+
+.link6{
+    margin: 30px 0px 40px 12px;
+    color: white;
+    font-size: 1.3rem;
+}
+.link6 a{
+    color: white;
+    text-decoration: none;
+}
+
+
+#imge3{
+    transition: all 0.1s ease-out;
+}
+#imge3:hover{
+    transform: scale(1.1);
+}
+#imge4{
+    transition: all 0.1s ease-out;
+}
+#imge4:hover{
+    transform: scale(1.1);
+
+}
+
+#imge3 img{
+    height: 200px;
+    width: 300px;
+}
+
+
+
+#imge4 img{
+    margin: 0px 0px 0px 100px;
+    height: 200px;
+    width: 300px;
+}
+
+
+.ccc1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.bbb6{
+    width: 300px;
+    height: 200px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(15, 14, 14);
+    background-color: white;
+}
+
+.bbb7{
+    width: 300px;
+    height: 200px;
+    margin: 0px 0px 10px 100px;
+    color: rgb(15, 14, 14);
+    background-color: white;
+}
+
+.head15{
+    padding: 15px 10px 20px 15px;
+}
+
+.head15 a{
+    color: rgb(15, 14, 14);
+    background-color: white;
+    text-decoration: none;
+}
+.head15 a:hover{
+    text-decoration: underline;
+}
+
+.para8{
+    padding: 40px 10px 20px 15px;
+    font-size: 1.3rem;
+}
+.para8 a{
+color: rgb(17, 17, 17);
+background-color: white;
+text-decoration: none;
+}
+.para8 a:hover{
+    text-decoration: underline;
+}
+
+.link7{
+    margin: 0px 0px 40px 15px;
+}
+.link7 a{
+    color: rgb(24, 23, 23);
+    text-decoration-color: yellow;
+}
+
+
+
+
+
+
+/*  styling issue section */ 
+#issue1{
+    background-color: black;
+}
+
+.head13{
+    color: white;
+    font-size: 3.3rem;
+    text-align: center;
+    padding: 80px 0px 40px 0px;
+}
+.para10{
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.para10 span{
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+.para10 span:hover{
+    background-color:yellow;
+    color: black;
+}
+
+/* section1 styling */
+.inner-container3{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0px 0px 200px;
+}
+
+
+
+/* styling right side */
+.section-right3{
+    padding: 20px 30px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    }
+    
+    #right-img3{
+        margin: 0px 0px 50px 0px;
+    }
+    
+    
+    #right-img3 img{
+        position: relative;
+        height: 400px;
+        transition: all 0.1s ease-out;
+    }
+    
+    
+    #right-img3 img:hover{
+        transform: scale(1.1);
+    }
+    
+    .bbb9{
+        position: absolute;
+        top: 3900px;
+        margin: 60px 30px 0px 30px;
+        color: white;
+        width: 650px;
+    }
+    
+    .para11{
+        margin: 20px 0px 10px 12px;
+        font-size: 2.3rem;
+    }
+    .para11 a{
+    color: white;
+    text-decoration: none;
+    }
+    .para11 a:hover{
+        text-decoration: underline;
+    }
+    
+    .link9{
+        margin: 30px 0px 40px 12px;
+        color: white;
+        font-size: 1.3rem;
+    }
+    .link9 a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    
+    #imge5{
+        transition: all 0.1s ease-out;
+    }
+    #imge5:hover{
+        transform: scale(1.1);
+    }
+    #imge6{
+        transition: all 0.1s ease-out;
+    }
+    #imge6:hover{
+        transform: scale(1.1);
+    
+    }
+    
+    #imge5 img{
+        height: 200px;
+        width: 300px;
+    }
+    
+    
+    
+    #imge6 img{
+        margin: 0px 0px 0px 100px;
+        height: 200px;
+        width: 300px;
+    }
+    
+    
+    .ccc2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+    .bbb10{
+        width: 300px;
+        height: 200px;
+        margin: 0px 0px 0px 0px;
+        color: rgb(15, 14, 14);
+        background-color: white;
+    }
+    
+    .bbb11{
+        width: 300px;
+        height: 200px;
+        margin: 0px 0px 10px 100px;
+        color: rgb(15, 14, 14);
+        background-color: white;
+    }
+    
+    .para12{
+        padding: 40px 10px 20px 15px;
+        font-size: 1.3rem;
+    }
+    .para12 a{
+    color: rgb(17, 17, 17);
+    background-color: white;
+    text-decoration: none;
+    }
+    .para12 a:hover{
+        text-decoration: underline;
+    }
+    
+    .link10{
+        margin: 0px 0px 40px 15px;
+    }
+    .link10 a{
+        color: rgb(24, 23, 23);
+        text-decoration-color: yellow;
+    }
+    
+    
+    
+
+
+.section-left3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+}
+
+.head17{
+    font-size: 2rem;
+}
+
+.new2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.aaa2 img{
+    height: 110px;
+    width: 120px;
+}
+
+
+.bbb12{
+    width: 200px;
+    margin: 0px 0px 0px 15px;
+}
+
+.head19 a{
+    color: white;
+    text-decoration: none;
+}
+.head19 a:hover{
+    text-decoration: underline;
+}
+
+.para19 a{
+color: white;
+text-decoration: none;
+}
+.para19 a:hover{
+    text-decoration: underline;
+}
+
+.link11{
+    margin: 40px 0px 40px 15px;
+}
+.link11 a{
+    color: white;
+    text-decoration-color: yellow;
+}
+.link11 a:hover{
+    color: black;
+    background-color: rgb(226, 201, 7);
+}
+
+
+/* styling section-nation */
+.section-nation{
+    background-color: rgb(215, 214, 213);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.head20{
+    text-align: center;
+    font-size: 2rem;
+    margin: 40px;
+}
+
+.first-box{
+    display: flex;
+    margin: 20px 200px 20px 200px;
+}
+.first-img img{
+    height: 400px;
+    width: 500px;
+}
+
+.text3{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 150px 0px 40px;
+}
+
+.head21{
+    font-size: 2rem;
+    text-align: start;
+    margin: 0px 0px 30px 0px;
+}
+.para13{
+    text-align: start;
+}
+
+.second-box{
+    display: flex;
+    margin: 20px 200px 20px 200px;
+}
+
+
+.sec-img1 img{
+    height: 200px;
+    width: 350px;
+    padding: 15px;
+}
+
+.bbb13{
+    padding: 10px;
+    margin: 10px;
+}
+.para14{
+    margin: 10px;
+}
+.para14 a{
+    text-decoration: none;
+    color: black;
+}
+.link12{
+    margin: 10px;
+    text-decoration: none;
+}
+.link12 a{
+    text-decoration: none;
+    color: black;
+}
+
+.third-box{
+    text-align: center;
+    margin: 10px 0px 50px 0px;
+}
+.btn4{
+    background-color: rgb(215, 215, 8);
+    border: 2px solid rgb(215, 214, 213);
+    padding: 15px;
+}
+.btn4:hover{
+    background-color: white;
+    color: black;
+}
+
+#sign-up{
+    background-image: url('https://cdn.pixabay.com/photo/2023/03/11/22/21/ai-generated-7845468_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.head22{
+    padding: 60px 80px 30px 80px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.para15{
+    color: white;
+    text-align: center ;
+    font-size: 1.5rem;
+}
+
+.btn5{
+    margin: 60px 600px 100px 600px;
+}
+.btn5 h2{
+    text-align: center;
+    padding: 15px 110px 15px 110px;
+    background-color: rgb(215, 215, 8);
+}
+.btn5 h2:hover{
+    background-color: white;
+    color: black;
+}
+
+.btn5 a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
