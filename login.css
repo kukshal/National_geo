@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(img1.jpg);
+    background-size: cover;      /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Keep the background fixed */
+}
+
+.container{
+    /* border: 20px solid red; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.container h1{
+    font-size: 2.5rem;
+    border-bottom: 5px solid purple;
+    margin: 20px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    body {
+        margin: 4px;
+        padding: 3px; 
+    }
+
+    .container h1{
+        font-size: 1rem;
+    }
+}
+
+.outer{
+    /* border: 5px solid red; */
+    width: 100%;
+    margin: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+}
+
+.fa-lock:before {
+    content: "\f023";
+    font-size: 1.5rem;
+}
+
+.fa-user:before {
+    content: "\f007";
+    font-size: 1.5rem;
+}
+
+.box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 5px;
+    background: none;
+    border-bottom: 2px solid purple;
+    padding-top: 4px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.for{
+    padding-bottom: 20px;
+
+}
+
+.for a{
+    color: purple;
+    text-decoration: none;
+    margin: 25px;
+
+}
+.for a:hover{
+    color: white;
+}
+
+
+.sign{
+    padding-bottom: 20px;
+
+}
+
+.sign a{
+    color: purple;
+    text-decoration: none;
+    margin-left: 50px;
+}
+.sign a:hover{
+    color: white;
+}
+
+
+.btn{
+    background: none;
+    cursor: pointer;
+    margin: auto;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    color: white;
+
+}
+
+.btn:hover{
+    background-color: white;
+    color: purple;
+    border: none;
+}
+
+
+
+
+
+
+
+
